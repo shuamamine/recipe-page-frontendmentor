@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 55%;
+  height: 100%;
+  margin: 9rem;
+  border-radius: 20px;
+}
+.image1 {
+  width: 97%;
+  padding: 4%;
+  border-radius: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 0 4% 4% 4%;
+  margin: 0 35px 0 25px;
+  gap: 25px;
+}
+.text h1 {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+
+.text p {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+.prep {
+  background-color: hsl(30, 54%, 90%);
+  padding: 4%;
+  line-height: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  border-radius: 20px;
+}
+.prep h3 {
+  margin: 2px;
+  color: hsl(332, 51%, 32%);
+}
+.prep ul {
+  padding: 1% 0 0 5%;
+}
+.ingredients h2 {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+.ingredients ul {
+  padding: 2% 4% 0 4%;
+  line-height: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+.instructions h2 {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+}
+.instructions ol {
+  padding: 2% 4% 0 4%;
+  line-height: 1.5rem;
+  font-family: "Outfit", sans-serif;
+}
+.instructions li {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.instructions span {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+.nutrition h2 {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+  padding-bottom: 20px;
+}
+.nutrition p {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 30px;
+}
+.nutrition table {
+  font-family: "Outfit", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-weight: 600;
+}
+.tdborder {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.td1 {
+  color: hsl(14, 45%, 36%);
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.td2, .td3 {
+  padding: 10px;
+}
+.td3 {
+  color: hsl(14, 45%, 36%);
+}
