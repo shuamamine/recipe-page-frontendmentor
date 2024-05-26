@@ -107,13 +107,13 @@ body {
   font-weight: 600;
 }
 .tdborder {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
   padding: 10px;
 }
 .td1 {
   color: hsl(14, 45%, 36%);
   padding: 10px;
-  border-bottom: 1px solid hsl(30, 10%, 34%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 .td2, .td3 {
   padding: 10px;
