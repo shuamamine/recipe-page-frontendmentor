@@ -109,15 +109,18 @@ body {
 .tdborder {
   border-bottom: 1px solid hsl(30, 18%, 87%);
   padding: 10px;
+  color: hsl(30, 10%, 34%);
 }
 .td1 {
   color: hsl(14, 45%, 36%);
   padding: 10px;
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
-.td2, .td3 {
+.td2 {
+  color : hsl(30, 10%, 34%);
   padding: 10px;
 }
 .td3 {
   color: hsl(14, 45%, 36%);
+  padding: 10px;
 }
